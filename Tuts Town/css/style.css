@@ -1,0 +1,80 @@
+body{
+	background-color: #faf8da;
+	font-family: calibri;
+}
+
+
+
+
+
+.titulo{
+
+	font-size: 4em;
+	text-align: center;
+	color: #2090b7;
+	margin-bottom: 0px;
+	margin-right: 8%;
+}
+
+
+ .imagem{
+
+	height: 300px;
+	align-items: center;
+	display: block;
+
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.topicoimg{
+	height: 150px;
+	
+}
+
+
+.conteudo{
+	display: table;
+	text-align: center;
+	align-items: center;
+	margin-left: 40%;
+}
+
+.imagens{
+	display: table-cell;
+	float: left;
+}
+
+
+.texto{
+	color: #2090b7;
+	display: table-cell;
+	float: left;
+}
+
+.titulin{
+	font-size: 2em;
+	margin-bottom: 0%;
+}
+
+ul li{
+margin-top: 0%;
+text-decoration: underline;
+color: rgb(212, 138, 0);
+text-align: left;
+}
+
+ul li:hover{
+	cursor: pointer;
+}
+
+.frodape{
+	position: absolute;
+    bottom: 5;
+    background-color: #ffc108;
+    color: white;
+    width: 100%;
+    height: 5%;    
+    text-align: center;
+    line-height: 10%;
+}
