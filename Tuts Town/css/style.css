@@ -9,7 +9,7 @@ body{
 
 .titulo{
 
-	font-size: 4em;
+	font-size: 3.6em;
 	text-align: center;
 	color: #2090b7;
 	margin-bottom: 0px;
@@ -19,7 +19,7 @@ body{
 
  .imagem{
 
-	height: 300px;
+	height: 250px;
 	align-items: center;
 	display: block;
 
@@ -37,7 +37,7 @@ body{
 	display: table;
 	text-align: center;
 	align-items: center;
-	margin-left: 40%;
+	margin-left: 37%;
 }
 
 .imagens{
@@ -78,3 +78,4 @@ ul li:hover{
     text-align: center;
     line-height: 10%;
 }
+
