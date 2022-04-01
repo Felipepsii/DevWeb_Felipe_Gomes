@@ -28,9 +28,15 @@ ul li {
     font-size: 2em;
 }
 
+ul li a {
+    text-decoration: none;
+    color: #999999;
+    margin: 15px;
+}
+
 .banner {
     background-image: url('../img/banner.jpg');
-    height: 600px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -52,7 +58,6 @@ ul li {
 }
 
 .caixa p {
-    font-weight: bold;
     font-size: 20px;
 }
 
@@ -77,5 +82,13 @@ div p {
 }
 
 div h2 {
-    font-size: 15px;
+    font-size: 30px;
+}
+
+.article p {
+    font-size: 18px;
+}
+
+footer {
+    font-size: 16px;
 }
