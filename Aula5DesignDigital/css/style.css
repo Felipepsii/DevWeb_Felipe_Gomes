@@ -1,41 +1,81 @@
-body{
-	font-family: 
-
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-header{
-	background-color: white;
-	display: grid;
-	grid-template-columns: min-content 1fr;
-	padding-top: 50px
-
+header {
+    background-color: white;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    padding-top: 47px;
 }
-	
-.logo{
-	width: 200px;
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-bottom: 0px;
 
-
+.logo {
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
 }
 
 ul {
-	text-align: right;
-    box-sizing: border-box;
-    	margin-bottom: 0px;
-
+    text-align: right;
+    margin-bottom: 0px;
 }
 
 ul li {
     display: inline-block;
     padding: 5px;
     text-decoration: none;
-
+    font-size: 2em;
 }
 
-
 .banner {
-	background-image: url('../img/banner.jpg');
-	height: 450px;
+    background-image: url('../img/banner.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.caixa {
+    margin-bottom: 10px;
+    color: white;
+    position: inherit;
+    top: 250px;
+    height: 300px;
+    width: 450px;
+    background: rgba(44, 44, 44, 0.8);
+    padding-left: 50px;
+}
+
+.caixa h1 {
+    padding-top: 50px;
+    font-size: 42px;
+}
+
+.caixa p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.caixa a {
+    color: lightblue;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+}
+
+.topico {
+    margin-top: 56.51px;
+}
+
+.article,
+div h2,
+div p {
+    max-width: 95%;
+}
+
+div h2 {
+    font-size: 15px;
 }
