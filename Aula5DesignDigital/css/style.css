@@ -1,0 +1,41 @@
+body{
+	font-family: 
+
+}
+
+header{
+	background-color: white;
+	display: grid;
+	grid-template-columns: min-content 1fr;
+	padding-top: 50px
+
+}
+	
+.logo{
+	width: 200px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+
+
+}
+
+ul {
+	text-align: right;
+    box-sizing: border-box;
+    	margin-bottom: 0px;
+
+}
+
+ul li {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+
+.banner {
+	background-image: url('../img/banner.jpg');
+	height: 450px;
+}
