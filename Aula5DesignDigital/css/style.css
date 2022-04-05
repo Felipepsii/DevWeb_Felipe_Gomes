@@ -44,7 +44,7 @@ ul li a {
 .caixa {
     margin-bottom: 10px;
     color: white;
-    position: inherit;
+    position: absolute;
     top: 250px;
     height: 300px;
     width: 450px;
