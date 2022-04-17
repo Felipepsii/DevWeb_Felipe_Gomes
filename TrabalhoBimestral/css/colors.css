@@ -1,8 +1,10 @@
 :root{
-    --red: rgb(104, 0, 0);
-    --hred:rgb(52, 0, 0);
+    --red: #f1c0e8;
+    --hred: #f798e6;
     /* --bg: #181818; */
-    --bg: rgb(235, 228, 217);
+    --bg: #abd9cd;
+    --strk: #b56767;
+    --hover: #000000;
     /* --bh:white; */
 
     

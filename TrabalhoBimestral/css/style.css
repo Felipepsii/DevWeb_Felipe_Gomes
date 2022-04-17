@@ -1,11 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+
+body {
+    background-image: url("../img/pastel-colors-abstract.jpg");
+}
+
 
 .container {
-    
     width: 100%;
-    margin: 115px 0;
-    margin-left: 0px;
-    margin-right: 50px;
-
+    margin: 115px 50px 5px 5px;
+    /* margin-left: 0px;
+    margin-right: 50px; */
     
     padding: 1em 1em;
 
@@ -18,17 +27,20 @@
     justify-content: center;
     align-items: center;
 
+
 }
 
 .container div{
 
+
     background-color: var(--bg);
+
 
     margin: 20px 50px 20px 0;
     width: 600px;
     height: 500px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 3px solid var(--strk);
+    border-radius: 10px;
     padding: 1em 1em;
     
 }
