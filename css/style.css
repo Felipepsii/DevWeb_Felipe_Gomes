@@ -7,6 +7,7 @@
 
 body {
     background-image: url("../img/pastel-colors-abstract.jpg");
+
 }
 
 
@@ -47,15 +48,27 @@ body {
 }
 
 .volta p{
-    padding: 0  0 30px 0;
+    padding: 0px  0px 30px 0px;
 }
 
 .container p,
 h2{
-    padding-top: 15px;
+    padding-top: 55px;
     text-align: center;
 
 }
+
+.container p{
+font-size: 20px;
+
+}
+
+.container h2{
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+
+}
+
 
 .carrossel {
     z-index: 0;
@@ -65,9 +78,9 @@ h2{
     margin-right: auto;
     box-shadow: 2px 2px 4px black;
     overflow: hidden;
-    height: 400px;
-    aspect-ratio: 1/1;
+    width: 100%;    
     border-radius: 15px;
+    width: 400px;
 }
 
 .carrosselcont{
@@ -80,5 +93,13 @@ h2{
 
     object-fit: cover;
     height: 400px;
+}
+
+.volta2 img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 50%;
 }
 
