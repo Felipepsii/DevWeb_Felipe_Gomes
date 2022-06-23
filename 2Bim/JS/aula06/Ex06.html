@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex06</title>
+</head>
+<body>
+
+
+    <h1>Teste If e Else - OL</h1>
+
+    <script>
+        var m = 6
+        var mf = 8
+        var n1 = prompt('Digite a primeira nota')
+        var n2 = prompt('Digite a segunda nota')
+        var f1 = prompt('Faltas 1º Bimestres')
+        var f2 = prompt('Faltas 2º Bimestres')
+
+        n1 = parseFloat(n1)
+        n2 = parseFloat(n2)
+        f1 = parseFloat(f1)
+        f2 = parseFloat(f2)
+
+
+        var na = (n1 + n2) / 2
+        var fa = f1 + f2
+        
+        if (na>=m && fa<=mf) {
+            document.write('Aprovado')
+        }else
+        {
+            document.write('Reprovado')
+        }
+
+
+    </script>
+    
+</body>
+</html>
